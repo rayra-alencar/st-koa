@@ -17,7 +17,11 @@
   },
   "homepage": "https://github.com/rayra-alencar/st-koa#readme",
   "dependencies": {
-    "koa": "^2.11.0"
+    "fs": "0.0.1-security",
+    "json": "^9.0.6",
+    "koa": "^2.11.0",
+    "koa-force-https": "^2.0.1",
+    "koa-json": "^2.0.2"
   },
   "devDependencies": {
     "gulp-bower": "0.0.15"
