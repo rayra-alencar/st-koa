@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./koa/my-koa-app.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/rayra-alencar/st-koa#readme",
   "dependencies": {
     "koa": "^2.11.0"
+  },
+  "devDependencies": {
+    "gulp-bower": "0.0.15"
   }
 }
